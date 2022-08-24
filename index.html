@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Inter&family=Manrope:wght@400;700;800&family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        />
+        <link rel="stylesheet" href="./build/tailwind.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <!--
+        npm init -y
+        npm i -D tailwindcss postcss autoprefixer vite
+        npx tailwindcss init -p
+        npx tailwindcss -i ./css/tailwind.css -o ./build/tailwind.css --watch
+        npm run dev
+    -->
+        <div class="max-w-[1440px] mx-auto">
+            <header class="pt-9 relative">
+                <div
+                    class="bg-[#BDCCFF] absolute right-0 top-0 h-full w-[35%]"
+                ></div>
+                <div class="layout-container relative z-10">
+                    <div class="flex items-center justify-between mb-[117px]">
+                        <a
+                            href="./index.html"
+                            class="font-extrabold text-[23px]"
+                            >Smart Space</a
+                        >
+                        <ul
+                            class="flex items-center gap-x-[46px] text-[13px] font-dm"
+                        >
+                            <li>
+                                <a
+                                    href="./index.html"
+                                    class="text-black font-bold"
+                                    >Home</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="./index.html"
+                                    class="text-black font-bold"
+                                    >About</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="./index.html"
+                                    class="text-black font-bold"
+                                    >Service</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="./index.html"
+                                    class="text-black font-bold"
+                                    >Portfolio</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="./index.html"
+                                    class="text-black font-bold"
+                                    >Blog</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="./index.html"
+                                    class="text-black font-bold"
+                                    >Contact</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="relative">
+                        <div class="relative z-10">
+                            <h3 class="uppercase mb-6 font-bold text-orangeff9">
+                                RESIDENTIAL & OFFICE SPACES
+                            </h3>
+                            <h1
+                                class="max-w-[484px] mb-6 font-extrabold text-[54px]"
+                            >
+                                Smart Living Style for Smart People
+                            </h1>
+                            <p
+                                class="text-[17px] text-gray31 max-w-[500px] mb-12"
+                            >
+                                Much did had call new drew that kept. Limits
+                                expect wonder law she. Now has you views woman
+                                noisy match money rooms.
+                            </p>
+                            <div
+                                class="flex w-full max-w-[756px] bg-white shadow-properties mb-[145px]"
+                            >
+                                <div
+                                    class="flex items-center flex-1 gap-x-5 p-5 border border-grayda border-r-0"
+                                >
+                                    <img src="./images/icon-home.svg" alt="" />
+                                    <input
+                                        type="text"
+                                        placeholder="Enter Zipcode to search properties"
+                                        class="flex-1 font-normal text-xl text-gray31"
+                                    />
+                                </div>
+                                <button
+                                    class="font-bold bg-orangeff8 text-white text-[17px] py-8 px-[42px] leading-none"
+                                >
+                                    Search Now!
+                                </button>
+                            </div>
+                            <p class="text-[17px] text-gray31 mb-7">
+                                Our Amazing Partners
+                            </p>
+                            <div class="flex items-center gap-x-[50px]">
+                                <img src="./images/buzz.png" alt="" />
+                                <img src="./images/chase.png" alt="" />
+                                <img src="./images/microsoft.png" alt="" />
+                                <img src="./images/gucc.png" alt="" />
+                                <img src="./images/aribnb.png" alt="" />
+                                <img src="./images/uber.png" alt="" />
+                            </div>
+                        </div>
+                        <div class="absolute top-0 right-0 z-0">
+                            <img src="./images/header-img.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main class="mt-[223px]">
+                <section class="layout-container pb-[225px]">
+                    <h2 class="text-center font-semibold text-[40px] mb-[70px]">
+                        How It Works?
+                    </h2>
+                    <div class="grid grid-cols-work">
+                        <div class="flex items-center flex-col text-center">
+                            <div
+                                class="flex items-center justify-center mb-[50px] w-[90px] h-[90px] rounded-[20px] bg-[#9672FF] shadow-purple"
+                            >
+                                <img src="./images/icon-search.svg" alt="" />
+                            </div>
+                            <h3 class="text-[22px] font-semibold mb-4">
+                                Research Suburbs
+                            </h3>
+                            <p class="font-roboto text-gray33">
+                                Wonder twenty hunted and put income set desire
+                                expect. Am cottage calling.
+                            </p>
+                        </div>
+                        <img
+                            src="./images/icon-line.svg"
+                            alt=""
+                            class="relative top-10"
+                        />
+                        <div class="flex items-center flex-col text-center">
+                            <div
+                                class="flex items-center justify-center mb-[50px] w-[90px] h-[90px] rounded-[20px] bg-[#4DDFFD] shadow-blue"
+                            >
+                                <img src="./images/icon-hand.svg" alt="" />
+                            </div>
+                            <h3 class="text-[22px] font-semibold mb-4">
+                                Instant Valuation
+                            </h3>
+                            <p class="font-roboto text-gray33">
+                                Conveying or northward offending admitting
+                                perfectly my. Colonel gravit and moonlight.
+                            </p>
+                        </div>
+                        <img
+                            src="./images/icon-line2.svg"
+                            alt=""
+                            class="relative top-10"
+                        />
+                        <div class="flex items-center flex-col text-center">
+                            <div
+                                class="flex items-center justify-center mb-[50px] w-[90px] h-[90px] rounded-[20px] bg-[#F2B8EC] shadow-pink"
+                            >
+                                <img src="./images/icon-buiding.svg" alt="" />
+                            </div>
+                            <h3 class="text-[22px] font-semibold mb-4">
+                                Research Suburbs
+                            </h3>
+                            <p class="font-roboto text-gray33">
+                                Moderate children at of outweigh it. Unsatiable
+                                it considered invitation he travelling
+                                insensible.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section class="layout-container mb-[287px]">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h2 class="text-[40px] font-semibold mb-4">
+                                Best Real Estate Deals
+                            </h2>
+                            <p class="text-base max-w-[470px] mb-[50px]">
+                                Colonel gravity get thought fat smiling add but.
+                                Wonder twenty hunted and put income set desire
+                                expect.
+                            </p>
+                        </div>
+                        <a
+                            href="#!"
+                            class="text-white bg-orangeff8 py-[22px] px-[33px] shadow-orange block text-[17px] font-medium rounded-[5px]"
+                        >
+                            View All Property
+                        </a>
+                    </div>
+                    <div class="flex items-center gap-x-[54px] mb-[45px]">
+                        <div
+                            class="text-[19px] pb-3 border-b border-orangeff8 text-orangeff8"
+                        >
+                            Residential Property
+                        </div>
+                        <div
+                            class="text-[19px] pb-3 border-b border-transparent"
+                        >
+                            Commercial Property
+                        </div>
+                        <div
+                            class="text-[19px] pb-3 border-b border-transparent"
+                        >
+                            Agriculture Property
+                        </div>
+                        <div
+                            class="text-[19px] pb-3 border-b border-transparent"
+                        >
+                            Industrial Property
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-3 gap-x-[30px]">
+                        <div class="relative">
+                            <img src="./images/Image 01.jpg" alt="" />
+                            <div
+                                class="absolute top-[14px] left-[14px] z-10 gap-x-[6px]"
+                            >
+                                <span
+                                    class="text-white text-[12px] px-3 py-[6px] font-inter inline-block rounded-[5px] border border-white bg-grayOp"
+                                >
+                                    Featured
+                                </span>
+                                <span
+                                    class="text-white text-[12px] px-3 py-[6px] font-inter inline-block rounded-[5px] border border-white bg-grayOp"
+                                >
+                                    3D
+                                </span>
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <img src="./images/Image 02.jpg" alt="" />
+                            <div
+                                class="absolute top-[14px] left-[14px] z-10 gap-x-[6px]"
+                            >
+                                <span
+                                    class="text-white text-[12px] px-3 py-[6px] font-inter inline-block rounded-[5px] border border-white bg-grayOp"
+                                >
+                                    Featured
+                                </span>
+                                <span
+                                    class="text-white text-[12px] px-3 py-[6px] font-inter inline-block rounded-[5px] border border-white bg-grayOp"
+                                >
+                                    3D
+                                </span>
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <img src="./images/Image 03.jpg" alt="" />
+                            <div
+                                class="absolute top-[14px] left-[14px] z-10 gap-x-[6px]"
+                            >
+                                <span
+                                    class="text-white text-[12px] px-3 py-[6px] font-inter inline-block rounded-[5px] border border-white bg-grayOp"
+                                >
+                                    Featured
+                                </span>
+                                <span
+                                    class="text-white text-[12px] px-3 py-[6px] font-inter inline-block rounded-[5px] border border-white bg-grayOp"
+                                >
+                                    3D
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="layout-container pb-[196px]">
+                    <h2 class="text-center font-semibold text-[40px] mb-[95px]">
+                        Featured Listing of the Week
+                    </h2>
+                    <div class="flex p-10 gap-[77px] items-start bg-[#f1ffff]">
+                        <div class="w-full relative max-w-[492px]">
+                            <img src="./images/buiding-image.png" alt="" />
+                            <img
+                                src="./images/buiding-image2.png"
+                                alt=""
+                                class="absolute bottom-[-125px] right-[50%] translate-x-[50%]"
+                            />
+                        </div>
+                        <div class="w-full max-w-[421px]">
+                            <h3 class="text-[31px] font-semibold mb-7">
+                                The and collecting for the motionless difficulty
+                                son.
+                            </h3>
+                            <p class="text-[#545A58] mb-11">
+                                Conveying or northward offending admitting
+                                perfectly my. Colonel gravity get thought fat
+                                smiling add but difficult situations.
+                            </p>
+                            <div class="flex items-start justify-between mb-9">
+                                <div class="flex flex-col text-[17px]">
+                                    <span class="font-bold mb-3">Budget</span>
+                                    <span class="text-[#545A58]"
+                                        >Confidential</span
+                                    >
+                                </div>
+                                <div class="flex flex-col text-[17px]">
+                                    <span class="font-bold mb-3">Size</span>
+                                    <span class="text-[#545A58]">1200 m2</span>
+                                </div>
+                                <div class="flex flex-col text-[17px]">
+                                    <span class="font-bold mb-3">Type</span>
+                                    <span class="text-[#545A58]">Office</span>
+                                </div>
+                            </div>
+                            <div class="flex items-start justify-between mb-9">
+                                <div class="flex flex-col text-[17px]">
+                                    <span class="font-bold mb-3">Status</span>
+                                    <span class="text-[#545A58]">Done</span>
+                                </div>
+                                <div class="flex flex-col text-[17px]">
+                                    <span class="font-bold mb-3">Location</span>
+                                    <span class="text-[#545A58]"
+                                        >Switzerland</span
+                                    >
+                                </div>
+                                <div class="flex flex-col text-[17px]">
+                                    <span class="font-bold mb-3">Flat</span>
+                                    <span class="text-[#545A58]">8 Room</span>
+                                </div>
+                            </div>
+                            <a
+                                href="#!"
+                                class="uppercase text-white bg-orangeff8 rounded-md py-3 px-[38px] text-lg font-medium w-full block text-center shadow-orange"
+                            >
+                                YES! I WANT BOOK “OFFICE PACKAGE”
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <section class="layout-container pb-[210px]">
+                    <h2
+                        class="text-[40px] font-semibold mb-[51px] max-w-[570px]"
+                    >
+                        Loved by businesses, and individuals across the globe.
+                    </h2>
+                    <div class="grid grid-cols-3 gap-x-[30px]">
+                        <div
+                            class="px-[38px] py-[52px] border border-[#EBEBEB] rounded-sm shadow-card"
+                        >
+                            <div class="mb-8 flex items-center gap-x-1">
+                                <i class="fa fa-star text-[#FBB040]"></i>
+                                <i class="fa fa-star text-[#FBB040]"></i>
+                                <i class="fa fa-star text-[#FBB040]"></i>
+                                <i class="fa fa-star text-[#FBB040]"></i>
+                                <i class="fa fa-star text-[#FBB040]"></i>
+                            </div>
+                            <p class="text-gray33 mb-[53px] h-[96px]">
+                                Moderate children at of outweigh it. Unsatiable
+                                it considered invitation he travelling
+                                insensible. Consulted admitting oh mr up as
+                                described.
+                            </p>
+                            <div class="flex items-center">
+                                <img
+                                    class="w-[48px] h-[48px] rounded-full mr-5"
+                                    src="./images/person-1.png"
+                                    alt=""
+                                />
+                                <div>
+                                    <h3
+                                        class="font-bold text-base text-[#333333]"
+                                    >
+                                        Jane Cooper
+                                    </h3>
+                                    <span
+                                        class="text-[14px] text-[#666666] font-normal"
+                                    >
+                                        Los Angeles, CA
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="px-[38px] py-[52px] border border-[#EBEBEB] rounded-sm shadow-card"
+                        >
+                            <div class="mb-8 flex items-center gap-x-1">
+                                <i class="fa fa-star text-[#FBB040]"></i>
+                                <i class="fa fa-star text-[#FBB040]"></i>
+                                <i class="fa fa-star text-[#FBB040]"></i>
+                                <i class="fa fa-star text-[#FBB040]"></i>
+                                <i class="fa fa-star text-[#FBB040]"></i>
+                            </div>
+                            <p class="text-gray33 mb-[53px] h-[96px]">
+                                The and collecting motionless difficulty son.
+                                His hearing staying ten colonel met. Sex drew
+                                six easy four dear cold
+                            </p>
+                            <div class="flex items-center">
+                                <img
+                                    class="w-[48px] h-[48px] rounded-full mr-5"
+                                    src="./images/person-2.png"
+                                    alt=""
+                                />
+                                <div>
+                                    <h3
+                                        class="font-bold text-base text-[#333333]"
+                                    >
+                                        Robert Fox
+                                    </h3>
+                                    <span
+                                        class="text-[14px] text-[#666666] font-normal"
+                                    >
+                                        New York City, NY
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="px-[38px] py-[52px] border border-[#EBEBEB] rounded-sm shadow-card"
+                        >
+                            <div class="mb-8 flex items-center gap-x-1">
+                                <i class="fa fa-star text-[#FBB040]"></i>
+                                <i class="fa fa-star text-[#FBB040]"></i>
+                                <i class="fa fa-star text-[#FBB040]"></i>
+                                <i class="fa fa-star text-[#FBB040]"></i>
+                                <i class="fa fa-star text-[#FBB040]"></i>
+                            </div>
+                            <p class="text-gray33 mb-[53px] h-[96px]">
+                                Sociable on as carriage my position weddings
+                                raillery consider. Peculiar trifling absolute
+                                and wandered vicinity property yet.
+                            </p>
+                            <div class="flex items-center">
+                                <img
+                                    class="w-[48px] h-[48px] rounded-full mr-5"
+                                    src="./images/person-3.png"
+                                    alt=""
+                                />
+                                <div>
+                                    <h3
+                                        class="font-bold text-base text-[#333333]"
+                                    >
+                                        Leslie Alexander
+                                    </h3>
+                                    <span
+                                        class="text-[14px] text-[#666666] font-normal"
+                                    >
+                                        Buffalo, NJ
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="flex items-center justify-center gap-[100px] mt-20"
+                    >
+                        <div class="flex items-center gap-x-[80px]">
+                            <img src="./images/icon-aribnb.svg" alt="" />
+                            <img src="./images/icon-cissco.svg" alt="" />
+                            <img src="./images/icon-epay.svg" alt="" />
+                            <img src="./images/icon-uber2.svg" alt="" />
+                            <img src="./images/icon-microsoft2.svg" alt="" />
+                        </div>
+                        <div class="max-w-[311px] font-inter font-normal">
+                            Give us a Call 1-888-111-2222 and we can set you up,
+                            <a href="#!" class="text-[#2CBDE7] underline">
+                                or check our pricing plans
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer class="py-[162px] bg-[#fbfcfc]">
+                <div class="layout-container">
+                    <h2 class="text-center font-semibold text-[45px] mb-3">
+                        Get Our Newsletter
+                    </h2>
+                    <p class="text-[23px] font-bold text-center mb-9">
+                        To join the worldwide community
+                    </p>
+                    <div class="pb-[160px] border-b border-[#DEDFE1] mb-[60px]">
+                        <div
+                            class="max-w-[686px] mx-auto flex items-center shadow-white px-[30px] py-[26px]"
+                        >
+                            <div class="flex flex-col flex-1">
+                                <label
+                                    for="email"
+                                    class="opacity-20 block text-gray31 mb-3"
+                                >
+                                    Type your Email Address
+                                </label>
+                                <input
+                                    type="text"
+                                    id="email"
+                                    value="nghiemmanhcuong98@gmail.com"
+                                    class="text-black font-bold text-lg"
+                                />
+                            </div>
+                            <button
+                                class="bg-orangeff8 text-white py-6 px-10 font-dm text-lg font-medium"
+                            >
+                                Send Now
+                            </button>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-between mb-[77px]">
+                        <a
+                            href="./index.html"
+                            class="font-extrabold text-[23px]"
+                            >Smart Space</a
+                        >
+                        <ul
+                            class="flex items-center gap-x-[46px] text-[13px] font-dm"
+                        >
+                            <li>
+                                <a
+                                    href="./index.html"
+                                    class="text-black font-bold underline"
+                                    >Home</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="./index.html"
+                                    class="text-black font-bold"
+                                    >About</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="./index.html"
+                                    class="text-black font-bold"
+                                    >Service</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="./index.html"
+                                    class="text-black font-bold"
+                                    >Portfolio</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="./index.html"
+                                    class="text-black font-bold"
+                                    >Blog</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="./index.html"
+                                    class="text-black font-bold"
+                                    >Contact</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="font-dm text-[12px] text-center">
+                        Copyright © 2021 AR Shakir . All Rights Reseved.
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
